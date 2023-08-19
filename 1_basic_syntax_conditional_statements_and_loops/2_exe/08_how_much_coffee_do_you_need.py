@@ -19,12 +19,14 @@ while not command == "END":
     if command in events:
         if command == command.lower():
             number_coffees += 1
-        elif command == command.upper():
+
+        else:
             number_coffees += 2
 
     command = input()
 
 if number_coffees > 5:
     print("You need extra sleep")
+
 else:
     print(number_coffees)
