@@ -11,6 +11,3 @@ while True:
         break
     else:
         current_year += 1
-
-
-
