@@ -2,6 +2,7 @@
 
 
 
+
 n_orders = int(input())
 
 total_cost = 0
