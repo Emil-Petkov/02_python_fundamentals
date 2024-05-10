@@ -10,6 +10,7 @@
 
 
 
+
 number = float(input())
 
 while number < 1 or number > 100:
