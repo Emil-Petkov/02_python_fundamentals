@@ -1,4 +1,5 @@
 
+
 command = input()
 
 while not command == 'End':
