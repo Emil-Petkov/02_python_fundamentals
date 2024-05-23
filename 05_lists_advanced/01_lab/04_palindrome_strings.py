@@ -17,6 +17,7 @@
 
 
 
+
 words = input().split()
 search_palindrome = input()
 
