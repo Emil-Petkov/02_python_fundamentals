@@ -5,8 +5,7 @@ class Comment:
         self.likes = likes
 
 
-comment = Comment('user1', 'I like this book')
-
+comment = Comment("user1", "I like this book")
 print(comment.username)
 print(comment.content)
 print(comment.likes)
