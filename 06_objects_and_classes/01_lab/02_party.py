@@ -1,16 +1,15 @@
 class Party:
     def __init__(self):
-        self.peoples = []
+        self.guests = []
 
 
 party = Party()
 
 command = input()
+
 while not command == 'End':
-    current_name = command
-    party.peoples.append(current_name)
+    party.guests.append(command)
 
     command = input()
 
-print(f'Going: {", ".join(party.peoples)}')
-print(f'Total: {len(party.peoples)}')
+print(f"Going: {', '.join(party.guests)}\nTotal: {len(party.guests)}")
