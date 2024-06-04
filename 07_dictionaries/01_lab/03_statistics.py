@@ -17,6 +17,7 @@
 
 
 
+
 data = input().split(': ')
 
 products = {
