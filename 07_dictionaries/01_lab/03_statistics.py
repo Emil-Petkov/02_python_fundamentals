@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 data = input().split(': ')
 
 products = {
