@@ -5,6 +5,7 @@
 
 
 
+
 data = input().split(': ')
 
 products = {
