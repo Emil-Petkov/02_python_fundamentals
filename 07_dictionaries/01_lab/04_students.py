@@ -11,6 +11,7 @@
 
 
 
+
 command = input().split(':')
 
 student_information = {
